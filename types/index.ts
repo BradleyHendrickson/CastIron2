@@ -5,4 +5,5 @@ export type Restaurant = {
   rating: number;
   address: string;
   userRatingCount?: number;
+  photos?: string[];
 };
